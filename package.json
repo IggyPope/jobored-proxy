@@ -1,0 +1,29 @@
+{
+  "name": "jobored-proxy",
+  "version": "1.0.0",
+  "description": "A simple proxy app built with Express",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IggyPope/jobored-proxy.git"
+  },
+  "author": "Igor Vakulchik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IggyPope/jobored-proxy/issues"
+  },
+  "homepage": "https://github.com/IggyPope/jobored-proxy#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-http-proxy": "^2.0.0",
+    "lru-cache": "^10.1.0",
+    "request-ip": "^3.3.0"
+  }
+}
